@@ -1,0 +1,106 @@
+﻿<Window x:Class="WM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WM"
+        mc:Ignorable="d"
+        Title="{DynamicResource WindowTitle}" 
+        Height="595" Width="477" 
+        Background="White" 
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid Margin="20,20,20,30">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="87.883" />
+            <RowDefinition Height="114*" />
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок окна -->
+        <TextBlock Text="{DynamicResource AuthorizationLabel}" 
+                   HorizontalAlignment="Center" 
+                   FontWeight="Bold" 
+                   FontSize="36" 
+                   Foreground="#00796B" 
+                   Margin="0,20,0,20" Width="234"/>
+        <Image Margin="0,0,373,33" Source="/icons8-склад-48.png" Stretch="Fill"/>
+
+        <!-- Основной контент -->
+        <Border Grid.Row="1" 
+                Background="White" 
+                CornerRadius="10" 
+                Padding="20"
+                BorderBrush="#00796B" 
+                BorderThickness="2" Height="342" VerticalAlignment="Center">
+            <StackPanel VerticalAlignment="Center" Height="323">
+                <!-- Поле для ввода логина -->
+                <Label Content="{DynamicResource LoginLabel}" 
+                       FontWeight="Bold" 
+                       FontSize="24" 
+                       Foreground="#00796B" 
+                       Margin="0,0,0,10"/>
+                <TextBox x:Name="lg" 
+                         HorizontalAlignment="Stretch" 
+                         TextWrapping="Wrap" 
+                         FontSize="16" 
+                         Height="56" 
+                         Padding="10" 
+                         BorderBrush="#00796B" 
+                         BorderThickness="2" 
+                       
+                         Margin="0,0,0,20"/>
+
+                <!-- Поле для ввода пароля -->
+                <Label Content="{DynamicResource PasswordLabel}" 
+                       FontWeight="Bold" 
+                       FontSize="24" 
+                       Foreground="#00796B" 
+                       Margin="0,0,0,10"/>
+                <PasswordBox x:Name="pr" 
+                             FontSize="16" 
+                             Height="58" 
+                             Padding="10" 
+                             BorderBrush="#00796B" 
+                             BorderThickness="2" 
+                          
+                             Margin="0,0,0,20"/>
+                <Button x:Name="Next" 
+                        Content="{DynamicResource NextButton}" 
+                        Style="{StaticResource ModernButtonTheme}"
+                        FontWeight="Bold" 
+                        FontSize="24" 
+                        Foreground="White" 
+                        Click="Next_Click" Height="51">
+
+                </Button>
+
+                <!-- Кнопка "Далее" -->
+            </StackPanel>
+        </Border>
+
+        <!-- Футер с кнопками выбора языка -->
+        <StackPanel Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    Grid.Row="2" 
+                    Margin="0,2,0,-13" Width="90">
+            <Button Content="RU" 
+                    Background="#B2DFDB" 
+                    Foreground="#00796B" 
+                    FontWeight="Bold" 
+                    Height="30" 
+                    Width="40" 
+                    Click="Ru_Click"/>
+            <Button Content="EN" 
+                    Background="#B2DFDB" 
+                    Foreground="#00796B" 
+                    FontWeight="Bold" 
+                    Height="30" 
+                    Width="40" 
+                    Margin="10,0,0,0" 
+                    Click="En_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

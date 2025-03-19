@@ -1,0 +1,293 @@
+﻿<Window x:Class="WM.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WM"
+        mc:Ignorable="d"
+        Title="{DynamicResource AdminWindowTitle}" 
+        Height="745" Width="794" 
+        Background="#E0F7FA"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid Margin="0,0,0,-6">
+        <TabControl Margin="0,0,0,10">
+            <!-- Вкладка "Склады" -->
+            <TabItem Header="{DynamicResource WarehousesTabHeader}">
+                <Grid Background="#E0F7FA" Height="694">
+                    <DataGrid x:Name="grid" Margin="10,60,10,410" IsReadOnly="False" SelectionChanged="grid_SelectionChanged" AutoGenerateColumns="True"/>
+                    <Button x:Name="Sb" Style="{DynamicResource ModernButtonTheme}"
+                            Content="{DynamicResource SearchButton}" Margin="215,10,535,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Click="Sb_Click" Background="#3EB489" Height="40"/>
+                    <TextBox x:Name="St" Margin="10,10,584,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200"/>
+                    <StackPanel Orientation="Vertical" Margin="10,284,10,0" VerticalAlignment="Top" Height="574">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Первая колонка -->
+                            <StackPanel Grid.Column="0" Margin="5">
+                                <Label Content="{DynamicResource NameLabel}" FontWeight="Bold" FontStyle="Italic" Height="30" />
+                                <TextBox x:Name="nas" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource WarehouseTypeLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="tip" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource ProductNameLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <ComboBox x:Name="ProductComboBox" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+
+                            <!-- Вторая колонка -->
+                            <StackPanel Grid.Column="1" Margin="5">
+                                <Label Content="{DynamicResource AddressLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="adrezz" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource StorageZoneLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="zonaxra" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource QuantityLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="kol" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Content="{DynamicResource AddButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Add4Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource EditButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Edit4Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource DeleteButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Delete4Button_Click" Margin="5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Товары" -->
+            <TabItem Header="{DynamicResource ProductsTabHeader}">
+                <Grid Background="#E0F7FA" Height="701">
+                    <DataGrid x:Name="grid1" Margin="10,42,10,482" IsReadOnly="False" SelectionChanged="grid1_SelectionChanged" AutoGenerateColumns="True"/>
+                    <Button x:Name="Sb1" Style="{DynamicResource ModernButtonTheme}"
+         Content="{DynamicResource SearchButton}" Margin="215,10,548,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Click="Sb_Click" Background="#3EB489" Height="27"/>
+                    <TextBox x:Name="St1" Margin="10,10,584,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="200"/>
+                    <StackPanel Orientation="Vertical" Margin="10,254,10,0" VerticalAlignment="Top" Height="601">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Первая колонка -->
+                            <StackPanel Grid.Column="0" Margin="5">
+                                <Label Content="{DynamicResource NameLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="nnaz" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource BarcodeLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="strix" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource UnitLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="ed" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource SerialNumberLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="nomer" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+
+                            <!-- Вторая колонка -->
+                            <StackPanel Grid.Column="1" Margin="5">
+                                <Label Content="{DynamicResource ArticleLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="art" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource CategoryLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="kategotia" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource PriceLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="zena" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource MinStockLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="minzap" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Content="{DynamicResource AddButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Add3Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource EditButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Edit3Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource DeleteButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Delete3Button_Click" Margin="5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Клиенты" -->
+            <TabItem Header="{DynamicResource ClientsTabHeader}">
+                <Grid Background="#E0F7FA">
+                    <DataGrid x:Name="grid2" Margin="10,60,10,389" IsReadOnly="False" AutoGenerateColumns="True" SelectionChanged="grid2_SelectionChanged"/>
+                    <Button x:Name="Sb2" Style="{DynamicResource ModernButtonTheme}"
+         Content="{DynamicResource SearchButton}" Margin="215,10,535,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Click="Sb_Click" Background="#3EB489" Height="40"/>
+                    <TextBox x:Name="St2" Margin="10,10,584,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200"/>
+                    <StackPanel Orientation="Vertical" Margin="10,349,10,0" VerticalAlignment="Top" Height="282">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Первая колонка -->
+                            <StackPanel Grid.Column="0" Margin="5">
+                                <Label Content="{DynamicResource NameLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="nazz" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource ContactPhoneLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="phonee" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+
+                            <!-- Вторая колонка -->
+                            <StackPanel Grid.Column="1" Margin="5">
+                                <Label Content="{DynamicResource AddressLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="adres" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource ContactEmailLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="eemail" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Content="{DynamicResource AddButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Add2Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource EditButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Edit2Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource DeleteButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Delete2Button_Click" Margin="5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Поставщики" -->
+            <TabItem Header="{DynamicResource SuppliersTabHeader}">
+                <Grid Background="#E0F7FA">
+                    <DataGrid x:Name="grid3" Margin="10,60,10,382" IsReadOnly="False" SelectionChanged="grid3_SelectionChanged" AutoGenerateColumns="True"/>
+                    <Button x:Name="Sb3" Style="{DynamicResource ModernButtonTheme}"
+         Content="{DynamicResource SearchButton}" Margin="215,10,535,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Click="Sb_Click" Background="#3EB489" Height="40"/>
+                    <TextBox x:Name="St3" Margin="10,10,584,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200"/>
+                    <StackPanel Orientation="Vertical" Margin="10,320,10,0" VerticalAlignment="Top" Height="535">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Первая колонка -->
+                            <StackPanel Grid.Column="0" Margin="5">
+                                <Label Content="{DynamicResource NameLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="naz" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource KPPLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="kpp" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource ContactEmailLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="emaill" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+
+                            <!-- Вторая колонка -->
+                            <StackPanel Grid.Column="1" Margin="5">
+                                <Label Content="{DynamicResource INNLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="inn" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource ContactPhoneLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="phone" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource AddressLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="adress" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Content="{DynamicResource AddButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Add1Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource EditButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Edit1Button_Click" Margin="5"/>
+                            <Button Content="{DynamicResource DeleteButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="Delete1Button_Click" Margin="5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Пользователи" -->
+            <TabItem Header="{DynamicResource UsersTabHeader}">
+                <Grid Background="#E0F7FA">
+                    <UIElement.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </UIElement.RenderTransform>
+                    <DataGrid x:Name="grid4" Margin="10,60,10,432" IsReadOnly="False" SelectionChanged="grid4_SelectionChanged" AutoGenerateColumns="True"/>
+                    <Button x:Name="Sb4" Style="{DynamicResource ModernButtonTheme}"
+         Content="{DynamicResource SearchButton}" Margin="210,10,535,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Click="Sb_Click" Background="#3EB489" Height="40"/>
+                    <TextBox x:Name="St4" Margin="10,10,584,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200"/>
+                    <StackPanel Orientation="Vertical" Margin="10,290,10,0" VerticalAlignment="Top" Height="311">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Первая колонка -->
+                            <StackPanel Grid.Column="0" Margin="5">
+                                <Label Content="{DynamicResource UsernameLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="ima" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource PasswordHashLabel}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="par" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+                            </StackPanel>
+
+                            <!-- Вторая колонка -->
+                            <StackPanel Grid.Column="1" Margin="5">
+                                <Label Content="{DynamicResource EmailLabelProfile}" FontWeight="Bold" FontStyle="Italic" />
+                                <TextBox x:Name="email" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                                <Label Content="{DynamicResource RoleLabel1}" FontWeight="Bold" FontStyle="Italic" />
+                                <ComboBox x:Name="role" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2">
+                                    <ComboBoxItem Content="Администратор" />
+                                    <ComboBoxItem Content="Кладовщик" />
+                                    <ComboBoxItem Content="Менеджер по продажам" />
+                                    <ComboBoxItem Content="Бухгалтер" />
+                                </ComboBox>
+                            </StackPanel>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Content="{DynamicResource AddButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="AddButton_Click" Margin="5"/>
+                            <Button Content="{DynamicResource EditButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="EditButton_Click" Margin="5"/>
+                            <Button Content="{DynamicResource DeleteButton}" Style="{StaticResource ModernButtonTheme}" Height="40" Width="120" Click="DeleteButton_Click" Margin="5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Профиль пользователя" -->
+            <TabItem Header="{DynamicResource ProfileTabHeader}">
+                <Grid Background="#E0F7FA" Height="790">
+                    <StackPanel Margin="20,0,20,0" VerticalAlignment="Center" Height="770">
+                        <!-- Информация о текущем пользователе -->
+                        <TextBlock x:Name="UserInfoLabel" FontSize="16" FontWeight="Bold" Margin="0,0,0,20" Text="{DynamicResource UserInfoLabel}" HorizontalAlignment="Center"/>
+
+                        <!-- Поле для имени пользователя -->
+                        <TextBlock Text="{DynamicResource UsernameLabelProfile}" FontWeight="Bold" FontStyle="Italic" />
+                        <TextBox x:Name="UserNameTextBox" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2"  />
+
+                        <!-- Поле для email -->
+                        <TextBlock Text="{DynamicResource EmailLabelProfile}" FontWeight="Bold" FontStyle="Italic" />
+                        <TextBox x:Name="EmailTextBox" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2"  />
+
+                        <!-- Поле для нового пароля -->
+                        <TextBlock Text="{DynamicResource NewPasswordLabel}" FontWeight="Bold" FontStyle="Italic" />
+                        <PasswordBox x:Name="PasswordBox" Margin="0,5,0,10" Padding="10" BorderBrush="#3EB489" BorderThickness="2" />
+
+                        <!-- Фотография пользователя -->
+                        <TextBlock Text="Фотография:" FontWeight="Bold" FontStyle="Italic" />
+                        <Image x:Name="UserPhoto" Width="216" Height="224" />
+                        <Button Content="{DynamicResource UploadPhotoButton}" Style="{StaticResource ModernButtonTheme}" Click="UploadPhoto_Click" HorizontalAlignment="Center" Background="#3EB489" Width="150" Height="40" Margin="0,5,0,10" />
+
+                        <!-- Кнопка для сохранения изменений -->
+                        <Button Content="{DynamicResource SaveButton}" Click="SaveProfile_Click" Style="{StaticResource ModernButtonTheme}" HorizontalAlignment="Center" Background="#3EB489" Width="150" Height="40" Margin="0,5,0,10" />
+
+                        <!-- Кнопка для выхода -->
+                        <Button Content="{DynamicResource LogoutButton}" Click="Logout_Click" Style="{StaticResource ModernButtonTheme}" Background="#FF6347" HorizontalAlignment="Center" Width="150" Height="40" Margin="0,5,0,10" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,182 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="LoginLabel">Логин:</system:String>
+    <system:String x:Key="PasswordLabel">Пароль:</system:String>
+    <system:String x:Key="AuthorizationLabel">Авторизация</system:String>
+    <system:String x:Key="NextButton">Далее</system:String>
+    <system:String x:Key="WindowTitle">Окно авторизации</system:String>
+
+
+    <!-- Строки для _2FactorWindow -->
+    <system:String x:Key="TwoFactorWindowTitle">Двухфакторная аутентификация</system:String>
+    <system:String x:Key="RoleLabel">Введите вашу роль в системе:</system:String>
+    <system:String x:Key="ConfirmationCodeLabel">Код подтверждения:</system:String>
+    <system:String x:Key="ConfirmationCodeSentMessage">Код подтверждения отправлен на ваш email.</system:String>
+    <system:String x:Key="InvalidConfirmationCodeMessage">Неверный код подтверждения.</system:String>
+
+    <!-- Строки для Admin -->
+    <system:String x:Key="AdminWindowTitle">Окно администратора</system:String>
+    <system:String x:Key="SearchButton">⌕</system:String>
+    <system:String x:Key="AddButton">Добавить</system:String>
+    <system:String x:Key="EditButton">Редактировать</system:String>
+    <system:String x:Key="DeleteButton">Удалить</system:String>
+
+    <!-- Вкладка "Склады" -->
+    <system:String x:Key="WarehousesTabHeader">Склады</system:String>
+    <system:String x:Key="NameLabel">Название</system:String>
+    <system:String x:Key="AddressLabel">Адрес</system:String>
+    <system:String x:Key="WarehouseTypeLabel">Тип склада</system:String>
+    <system:String x:Key="StorageZoneLabel">Зона хранения</system:String>
+    <system:String x:Key="ProductNameLabel">Название товара</system:String>
+    <system:String x:Key="QuantityLabel">Количество</system:String>
+
+    <!-- Вкладка "Товары" -->
+    <system:String x:Key="ProductsTabHeader">Товары</system:String>
+    <system:String x:Key="ArticleLabel">Артикул</system:String>
+    <system:String x:Key="BarcodeLabel">Штрихкод</system:String>
+    <system:String x:Key="CategoryLabel">Категория</system:String>
+    <system:String x:Key="UnitLabel">Ед. измерения</system:String>
+    <system:String x:Key="PriceLabel">Цена</system:String>
+    <system:String x:Key="SerialNumberLabel">Серийный номер</system:String>
+    <system:String x:Key="MinStockLabel">Минимальный запас</system:String>
+
+    <!-- Вкладка "Клиенты" -->
+    <system:String x:Key="ClientsTabHeader">Клиенты</system:String>
+    <system:String x:Key="ContactPhoneLabel">Контактный телефон</system:String>
+    <system:String x:Key="ContactEmailLabel">Контактный email</system:String>
+
+    <!-- Вкладка "Поставщики" -->
+    <system:String x:Key="SuppliersTabHeader">Поставщики</system:String>
+    <system:String x:Key="INNLabel">ИНН</system:String>
+    <system:String x:Key="KPPLabel">КПП</system:String>
+
+    <!-- Вкладка "Пользователи" -->
+    <system:String x:Key="UsersTabHeader">Пользователи</system:String>
+    <system:String x:Key="UsernameLabel">Имя пользователя</system:String>
+    <system:String x:Key="PasswordHashLabel">Хэш пароля</system:String>
+    <system:String x:Key="RoleLabel1">Роль</system:String>
+
+    <!-- Вкладка "Профиль пользователя" -->
+    <system:String x:Key="ProfileTabHeader">Профиль пользователя</system:String>
+    <system:String x:Key="UserInfoLabel">Информация о пользователе</system:String>
+    <system:String x:Key="UsernameLabelProfile">Имя пользователя:</system:String>
+    <system:String x:Key="EmailLabelProfile">Email:</system:String>
+    <system:String x:Key="NewPasswordLabel">Новый пароль:</system:String>
+    <system:String x:Key="UploadPhotoButton">Загрузить фото</system:String>
+    <system:String x:Key="SaveButton">Сохранить</system:String>
+    <system:String x:Key="LogoutButton">Выйти</system:String>
+
+    <!-- Строки для бухгалтера -->
+    <system:String x:Key="WindowTitle1">Окно бухгалтера</system:String>
+
+    <system:String x:Key="WarehouseReportTab">Отчет по складам</system:String>
+    <system:String x:Key="TurnoverReportTab">Отчет по оборотам</system:String>
+    <system:String x:Key="RemainingReportTab">Отчет по остаткам</system:String>
+    <system:String x:Key="InventoryTab">Проведение инвентаризации</system:String>
+    <system:String x:Key="UserProfileTab">Профиль пользователя</system:String>
+
+    <system:String x:Key="SaveToExcelButton">Сохранить в Excel</system:String>
+
+    <system:String x:Key="UserNameLabel">Имя пользователя:</system:String>
+    <system:String x:Key="EmailLabel">Email:</system:String>
+    <system:String x:Key="NewPasswordLabel1">Новый пароль:</system:String>
+    <system:String x:Key="PhotoLabel">Фотография:</system:String>
+    <system:String x:Key="UploadPhotoButton1">Загрузить фото</system:String>
+    <system:String x:Key="SaveButton1">Сохранить</system:String>
+    <system:String x:Key="LogoutButton1">Выйти</system:String>
+
+    <!-- Строки для кладовщика-->
+
+    <system:String x:Key="WindowTitle2">Окно кладовщика</system:String>
+    <system:String x:Key="IncomingInvoiceTab">Приходная накладная</system:String>
+    <system:String x:Key="OutgoingInvoiceTab">Расходная накладная</system:String>
+    <system:String x:Key="BarcodeTab">Штрихкод</system:String>
+    <system:String x:Key="InventoryReportTab">Отчет по инвентаризации</system:String>
+    <system:String x:Key="UserProfileTab2">Профиль пользователя</system:String>
+
+    <system:String x:Key="ProductLabel">Товар:</system:String>
+    <system:String x:Key="QuantityLabel2">Количество:</system:String>
+    <system:String x:Key="DateIncomingLabel">Дата поступления:</system:String>
+    <system:String x:Key="DateOutgoingLabel">Дата отгрузки:</system:String>
+    <system:String x:Key="SupplierLabel">Поставщик:</system:String>
+    <system:String x:Key="ClientLabel">Клиент:</system:String>
+
+    <system:String x:Key="CreateIncomingInvoiceButton">Оформить приходную накладную</system:String>
+    <system:String x:Key="CreateOutgoingInvoiceButton">Оформить расходную накладную</system:String>
+
+    <system:String x:Key="GenerateBarcodeButton">Сгенерировать штрихкод</system:String>
+    <system:String x:Key="PrintBarcodeButton">Печать штрихкода</system:String>
+    <system:String x:Key="ExportToExcelButton">Экспорт в Excel</system:String>
+
+    <system:String x:Key="UserNameLabel2">Имя пользователя:</system:String>
+    <system:String x:Key="EmailLabel2">Email:</system:String>
+    <system:String x:Key="NewPasswordLabel2">Новый пароль:</system:String>
+    <system:String x:Key="PhotoLabel2">Фотография:</system:String>
+    <system:String x:Key="UploadPhotoButton2">Загрузить фото</system:String>
+    <system:String x:Key="SaveButton2">Сохранить</system:String>
+    <system:String x:Key="LogoutButton2">Выйти</system:String>
+
+
+    <!-- Строки для менеджера-->
+    <system:String x:Key="WindowTitle3">Окно менеджера по продажам</system:String>
+    <system:String x:Key="OrdersTab">Заказы</system:String>
+    <system:String x:Key="InvoicesTab">Накладные</system:String>
+    <system:String x:Key="WarehousesTab">Склады</system:String>
+    <system:String x:Key="ProductsTab">Товары</system:String>
+    <system:String x:Key="ClientsTab">Клиенты</system:String>
+    <system:String x:Key="SuppliersTab">Поставщики</system:String>
+    <system:String x:Key="UserProfileTab3">Профиль пользователя</system:String>
+
+    <system:String x:Key="SearchButton3">⌕</system:String>
+    <system:String x:Key="GenerateOrderButton">Сформировать заказ</system:String>
+    <system:String x:Key="SupplierOrdersButton">Заказы поставщикам</system:String>
+    <system:String x:Key="CustomerOrdersButton">Заказы клиентам</system:String>
+    <system:String x:Key="SaveToExcelButton3">Сохранить в Excel</system:String>
+    <system:String x:Key="DeleteButton3">Удалить</system:String>
+
+    <system:String x:Key="IncomingInvoicesButton">Приходные накладные</system:String>
+    <system:String x:Key="OutgoingInvoicesButton">Расходные накладные</system:String>
+    <system:String x:Key="AddButton3">Добавить</system:String>
+    <system:String x:Key="EditButton3">Редактировать</system:String>
+    <system:String x:Key="NameLabel3">Название</system:String>
+    <system:String x:Key="AddressLabel3">Адрес</system:String>
+    <system:String x:Key="WarehouseTypeLabel3">ТипСклада</system:String>
+    <system:String x:Key="StorageZoneLabel3">ЗонаХранения</system:String>
+    <system:String x:Key="ProductNameLabel3">НазваниеТовара</system:String>
+    <system:String x:Key="QuantityLabel3">Количество</system:String>
+    <system:String x:Key="ArticleLabel3">Артикул</system:String>
+    <system:String x:Key="BarcodeLabel3">Штрихкод</system:String>
+    <system:String x:Key="CategoryLabel3">Категория</system:String>
+    <system:String x:Key="UnitOfMeasurementLabel">Ед.Измерения</system:String>
+    <system:String x:Key="PriceLabel3">Цена</system:String>
+    <system:String x:Key="SerialNumberLabel3">СерийныйНомер</system:String>
+    <system:String x:Key="MinimumStockLabel3">МинимальныйЗапас</system:String>
+    <system:String x:Key="ContactPhoneLabel3">КонтактныйТелефон</system:String>
+    <system:String x:Key="ContactEmailLabel3">КонтактныйEmail</system:String>
+    <system:String x:Key="INNLabel3">ИНН</system:String>
+    <system:String x:Key="KPPLabel3">КПП</system:String>
+    <system:String x:Key="UserNameLabel3">Имя пользователя:</system:String>
+    <system:String x:Key="EmailLabel3">Email:</system:String>
+    <system:String x:Key="NewPasswordLabel3">Новый пароль:</system:String>
+    <system:String x:Key="PhotoLabel3">Фотография:</system:String>
+    <system:String x:Key="UploadPhotoButton3">Загрузить фото</system:String>
+    <system:String x:Key="SaveButton3">Сохранить</system:String>
+    <system:String x:Key="LogoutButton3">Выйти</system:String>
+
+    <!-- Строки для окна заказов-->
+    <system:String x:Key="WindowTitle4">Добавление заказов</system:String>
+    <system:String x:Key="SupplierOrdersTab">Заказы поставщику</system:String>
+    <system:String x:Key="CustomerOrdersTab">Заказы клиенту</system:String>
+    <system:String x:Key="OrderTypeLabel">Тип заказа:</system:String>
+    <system:String x:Key="Retail">Розничный</system:String>
+    <system:String x:Key="Wholesale">Оптовый</system:String>
+    <system:String x:Key="SelectProductLabel">Выберите товар:</system:String>
+    <system:String x:Key="SelectSupplierLabel">Выберите поставщика:</system:String>
+    <system:String x:Key="SelectClientLabel">Выберите клиента:</system:String>
+    <system:String x:Key="EnterQuantityLabel">Введите количество товара:</system:String>
+    <system:String x:Key="OrderDateLabel">Дата заказа:</system:String>
+    <system:String x:Key="CreateOrderButton">Оформить заказ</system:String>
+    <system:String x:Key="BackButton">Назад</system:String>
+
+</ResourceDictionary>

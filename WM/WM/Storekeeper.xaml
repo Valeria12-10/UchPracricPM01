@@ -1,0 +1,178 @@
+﻿<Window x:Class="WM.Storekeeper"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WM"
+        xmlns:lex="http://wpflocalizeextension.codeplex.com"
+        mc:Ignorable="d"
+        Title="{DynamicResource WindowTitle}" Height="460" Width="600" Background="#F0F0F0">
+    <Grid>
+        <TabControl>
+            <!-- Вкладка "Приходная накладная" -->
+            <TabItem Header="{DynamicResource IncomingInvoiceTab}">
+                <Grid Background="#F0F0F0" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="22.96"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="12*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="{DynamicResource ProductLabel}" FontWeight="Bold" Margin="0,5,0,5" Grid.Row="0" Grid.Column="0"/>
+                    <ComboBox x:Name="cbProductIncoming" DisplayMemberPath="Название" Margin="5,5,5,5" Grid.Row="0" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource QuantityLabel}" FontWeight="Bold" Margin="0,5,0,5" Grid.Row="1" Grid.Column="0"/>
+                    <TextBox x:Name="txtQuantityIncoming" Margin="5,5,5,5" Grid.Row="1" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource DateIncomingLabel}" FontWeight="Bold" Margin="0,5,0,5" Grid.Row="2" Grid.Column="0"/>
+                    <DatePicker x:Name="dpDateIncoming" Margin="5,5,5,5" Grid.Row="2" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource SupplierLabel}" FontWeight="Bold" Margin="0,5,0,5" Grid.Row="3" Grid.Column="0"/>
+                    <ComboBox x:Name="cbSupplier" DisplayMemberPath="Название" Margin="5,5,5,5" Grid.Row="3" Grid.Column="1"/>
+
+                    <Button Content="{DynamicResource CreateIncomingInvoiceButton}" Style="{StaticResource ModernButtonTheme}" Click="CreateIncomingInvoice_Click" Margin="253,5,0,2" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" Padding="10,5" Background="#3EB489" FontWeight="Bold" Width="230" Grid.RowSpan="2">
+                        <UIElement.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </UIElement.RenderTransform>
+                    </Button>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Расходная накладная" -->
+            <TabItem Header="{DynamicResource OutgoingInvoiceTab}">
+                <Grid Background="#F0F0F0" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="22*"/>
+                        <RowDefinition Height="113*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="{DynamicResource ProductLabel}" FontWeight="Bold" Margin="0,5,487,5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <ComboBox x:Name="cbProductOutgoing" DisplayMemberPath="Название" Margin="92,5,5,5" Grid.Row="0" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource QuantityLabel}" FontWeight="Bold" Margin="0,5,487,5" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtQuantityOutgoing" Margin="92,5,5,5" Grid.Row="1" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource DateOutgoingLabel}" FontWeight="Bold" Margin="0,5,487,5" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <DatePicker x:Name="dpDateOutgoing" Margin="92,5,5,5" Grid.Row="2" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource ClientLabel}" FontWeight="Bold" Margin="0,5,487,5" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <ComboBox x:Name="cbClient" DisplayMemberPath="Название" Margin="92,5,5,5" Grid.Row="3" Grid.Column="1"/>
+
+                    <Button Content="{DynamicResource CreateOutgoingInvoiceButton}" Style="{StaticResource ModernButtonTheme}" Click="CreateOutgoingInvoice_Click" Margin="0,5,5,0" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Padding="10,5" Background="#3EB489" FontWeight="Bold" Width="204" Grid.RowSpan="2"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Штрих-код" -->
+            <TabItem Header="{DynamicResource BarcodeTab}">
+                <Grid Background="#F0F0F0" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto" MinHeight="49"/>
+                        <RowDefinition Height="Auto" MinHeight="118.96"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="{DynamicResource ProductLabel}" FontWeight="Bold" Margin="0,5,526,5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <ComboBox x:Name="cbProductBarcode" DisplayMemberPath="Название" Margin="64,5,5,5" Grid.Row="0" Grid.Column="1"/>
+
+                    <Button Content="{DynamicResource GenerateBarcodeButton}" Style="{StaticResource ModernButtonTheme}" Click="GenerateBarcode_Click" Margin="0,5,0,5" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Background="#3EB489" FontWeight="Bold" Width="162"/>
+                    <Image x:Name="imgBarcode" Margin="153,5,0,5" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="200"/>
+                    <Button Content="{DynamicResource PrintBarcodeButton}" Style="{StaticResource ModernButtonTheme}" Click="PrintBarcode_Click" Margin="0,29,0,-69" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" Background="#3EB489" FontWeight="Bold" Width="162"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Отчет по инвентаризации" -->
+            <TabItem Header="{DynamicResource InventoryReportTab}">
+                <Grid Background="#F0F0F0" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <DataGrid x:Name="dgInventoryReport" AutoGenerateColumns="True" Margin="5,5,5,48" Grid.Row="0"/>
+                    <Button Content="{DynamicResource ExportToExcelButton}" Style="{StaticResource ModernButtonTheme}" Click="ExportInventoryReport_Click" Margin="0,353,5,10" HorizontalAlignment="Right" Padding="10,5" Background="#3EB489" FontWeight="Bold" Width="182"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка "Профиль пользователя" -->
+            <TabItem Header="{DynamicResource UserProfileTab}">
+                <Grid Background="#F0F0F0" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="27.96"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="UserInfoLabel" FontSize="14" FontWeight="Bold" Margin="5,5,5,5" Grid.Row="0" Grid.ColumnSpan="2"/>
+
+                    <TextBlock Text="{DynamicResource UserNameLabel}" FontWeight="Bold" Margin="5,5,5,5" Grid.Row="1" Grid.Column="0"/>
+                    <TextBox x:Name="UserNameTextBox"  Margin="5,5,5,5" Grid.Row="1" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource EmailLabel}" FontWeight="Bold" Margin="5,5,5,5" Grid.Row="2" Grid.Column="0"/>
+                    <TextBox x:Name="EmailTextBox" Margin="5,5,5,5" Grid.Row="2" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource NewPasswordLabel}" FontWeight="Bold" Margin="5,5,5,4" Grid.Row="3" Grid.Column="0"/>
+                    <PasswordBox x:Name="PasswordBox" Margin="5,5,5,4" Grid.Row="3" Grid.Column="1"/>
+
+                    <TextBlock Text="{DynamicResource PhotoLabel}" FontWeight="Bold" Margin="5,6,5,4" Grid.Row="4" Grid.Column="0"/>
+                    <Image x:Name="UserPhoto" Width="100" Height="100" Margin="122,6,257,4" Grid.Row="4" Grid.Column="1"/>
+                    <Button Content="{DynamicResource UploadPhotoButton}" Style="{StaticResource ModernButtonTheme}" Click="UploadPhoto_Click" Margin="5,10,0,-23" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Background="#3EB489" FontWeight="Bold" Width="156">
+                        <UIElement.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </UIElement.RenderTransform>
+                    </Button>
+
+                    <Button Content="{DynamicResource SaveButton}" Style="{StaticResource ModernButtonTheme}" Click="SaveProfile_Click" Margin="5,74,0,-84" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Background="#3EB489" FontWeight="Bold" Width="156"/>
+                    <Button Content="{DynamicResource LogoutButton}" Style="{StaticResource ModernButtonTheme}" Click="Logout_Click" Margin="349,32,0,-42" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Background="#FF6347" FontWeight="Bold" Width="125">
+                        <UIElement.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </UIElement.RenderTransform>
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
