@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<style name="MainTheme" parent="MainTheme.Base">
+		<!-- Размер Action Bar -->
+		<item name="android:actionBarSize">20dp</item>
+
+		<!-- Дополнительные настройки -->
+		<item name="android:windowActionBarOverlay">true</item>
+		<!-- Прозрачность Action Bar -->
+	</style>
+</resources>

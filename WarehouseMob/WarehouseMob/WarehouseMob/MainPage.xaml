@@ -1,0 +1,93 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WarehouseMob.MainPage"
+             BackgroundColor="White">
+    <!-- Белый фон страницы -->
+
+    <Grid VerticalOptions="Center" HorizontalOptions="Center">
+
+        <!-- Определение строк и столбцов -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Заголовок -->
+        <Label Text="Вход в систему" 
+               FontSize="28" 
+               FontAttributes="Bold" 
+               TextColor="#4CAF50" 
+            HorizontalOptions="Center" 
+               Margin="0, 0, 0, 30" 
+               Grid.Row="0" Grid.Column="0" />
+
+            
+            <Frame BackgroundColor="White" 
+               CornerRadius="10" 
+               Padding="10" 
+               Margin="0, 10" 
+               Grid.Row="1" Grid.Column="0"
+               BorderColor="#4CAF50" 
+                HasShadow="True">
+               
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="email_icon.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24" 
+                       VerticalOptions="Center" />
+                    <Entry x:Name="EmailEntry" 
+                       Placeholder="Почта" 
+                       FontSize="Medium" 
+                       HeightRequest="40" 
+                       WidthRequest="250"
+                       Margin="0, 0" 
+                       TextColor="Black" 
+                       PlaceholderColor="Gray" />
+                </StackLayout>
+            </Frame>
+
+            
+            <Frame BackgroundColor="White" 
+               CornerRadius="10" 
+               Padding="10" 
+               Margin="0, 10" 
+               Grid.Row="2" Grid.Column="0"
+               BorderColor="#4CAF50" 
+                HasShadow="True">
+                
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="password_icon.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24" 
+                       VerticalOptions="Center" />
+                    <Entry x:Name="PasswordEntry" 
+                       Placeholder="Пароль" 
+                       IsPassword="True" 
+                       FontSize="Medium" 
+                       HeightRequest="40" 
+                       WidthRequest="230"
+                       Margin="1, 0" 
+                       TextColor="Black" 
+                       PlaceholderColor="Gray" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Кнопка входа -->
+            <Button Text="Войти" 
+                Clicked="OnLoginClicked" 
+                FontSize="Large" 
+                HeightRequest="50" 
+                Margin="0, 20" 
+                Grid.Row="3" Grid.Column="0" 
+                BackgroundColor="#4CAF50" 
+                TextColor="White" 
+                CornerRadius="25"
+                
+                HorizontalOptions="Fill" />
+    </Grid>
+</ContentPage>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:WarehouseMob"
+            x:Class="WarehouseMob.MainTabbedPage"
+            BarBackgroundColor="White"  
+
+    SelectedTabColor="Blue"
+    
+    UnselectedTabColor="Green">
+    
+
+    <!-- Вкладка "Склад" -->
+    <NavigationPage IconImageSource="skladd.png">
+        <x:Arguments>
+            <local:WarehousePage />
+        </x:Arguments>
+    </NavigationPage>
+
+    <!-- Вкладка "Карта" -->
+    <NavigationPage IconImageSource="map.png">
+        <x:Arguments>
+            <local:WarehouseMapPage />
+        </x:Arguments>
+    </NavigationPage>
+
+    <!-- Вкладка "Продукты" -->
+    <NavigationPage IconImageSource="spisok.png">
+        <x:Arguments>
+            <local:ProductsPage />
+        </x:Arguments>
+    </NavigationPage>
+
+    <!-- Вкладка "Сканирование" -->
+    <NavigationPage IconImageSource="skan.png">
+        <x:Arguments>
+            <local:BarcodeScanPage />
+        </x:Arguments>
+    </NavigationPage>
+
+    <!-- Вкладка "Профиль" -->
+    <NavigationPage IconImageSource="profile.png">
+        <x:Arguments>
+            <local:ProfilePage />
+        </x:Arguments>
+    </NavigationPage>
+
+    <!-- Вкладка "Помощь" -->
+    <NavigationPage IconImageSource="hepl.png">
+        <x:Arguments>
+            <local:HelpPage />
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

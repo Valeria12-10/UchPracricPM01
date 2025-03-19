@@ -1,0 +1,92 @@
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.deps.json
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\ref\WarehouseMob.dll
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.pdb
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.AssemblyReference.cache
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMapPage.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehousePage.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfoInputs.cache
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfo.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.CoreCompileInputs.cache
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\refint\WarehouseMob.dll
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.pdb
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\BarcodeScanPage.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductsPage.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductDetailPage.xaml.g.cs
+C:\Users\Хороми\source\repos\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.AssemblyReference.cache
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\BarcodeScanPage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductDetailPage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductsPage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMapPage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehousePage.xaml.g.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfoInputs.cache
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfo.cs
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.CoreCompileInputs.cache
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\refint\WarehouseMob.dll
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.pdb
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.deps.json
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\ref\WarehouseMob.dll
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.pdb
+C:\Users\Хороми\Desktop\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.deps.json
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\ref\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.pdb
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.AssemblyReference.cache
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\BarcodeScanPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductDetailPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductsPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMapPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehousePage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfoInputs.cache
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfo.cs
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.CoreCompileInputs.cache
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\refint\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.pdb
+C:\Users\vip66\OneDrive\Рабочий стол\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\MainTabbedPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.deps.json
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\ref\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\bin\Debug\netstandard2.0\WarehouseMob.pdb
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.AssemblyReference.cache
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\BarcodeScanPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\MainTabbedPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductDetailPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProductsPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMapPage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehousePage.xaml.g.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfoInputs.cache
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.AssemblyInfo.cs
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.csproj.CoreCompileInputs.cache
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\refint\WarehouseMob.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Доки\Session5\WarehouseMob\WarehouseMob\WarehouseMob\obj\Debug\netstandard2.0\WarehouseMob.pdb
