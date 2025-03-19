@@ -1,0 +1,26 @@
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.csproj.AssemblyReference.cache
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\WareHouseLibrary.dll.config
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\WareHouseLibrary.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\WareHouseLibrary.pdb
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.xml
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHous.C0FE3D53.Up2Date
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Учебная практика\Session3\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.pdb
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.csproj.AssemblyReference.cache
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHouseLibrary.pdb
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\WareHouseLibrary.dll.config
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\WareHouseLibrary.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\WareHouseLibrary.pdb
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.xml
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\vip66\OneDrive\Рабочий стол\Library\WareHouseLibrary\WareHouseLibrary\obj\Debug\WareHous.C0FE3D53.Up2Date
